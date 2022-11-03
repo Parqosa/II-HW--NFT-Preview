@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+
+body {
+    background-color: #0D192C;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.main-box{
+    width: 302px;
+    height: 548px;
+    padding: 24px;
+    border-radius: 15px;
+    background-color: #15263F   ;
+    display: flex;
+    flex-direction: column
+}
+
+#main-img{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.main-heading{
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 28px;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+.main-heading:hover{
+    color: #00FFF8 ;
+    transition: 0.5s;
+}
+
+.main-text{
+    margin:0;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    
+    color: #8BACD9;
+}
+
+
+.second-box{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.etherium-clock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.etherium-box{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+.clock-box{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+.etherium-txt{
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+
+padding-left: 6.48px;
+
+
+color: #00FFF8;
+}
+
+.clock-txt{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 7.7px;
+    
+    color: #8BACD9;
+}
+
+.line-1 {
+    display: flex;
+    
+    
+    height: 2px;
+    width: 302px;
+    background: #2E405A;
+  }
+
+.creator-box{
+    margin-top: 3px;
+    display: flex;
+    max-height: 100%;
+    align-items: center;
+}
+
+.creator-img{
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 33px;
+    height: 33px;
+    display: flex;
+    
+}
+
+.creator-txt{
+display: flex;
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #8BACD9;
+padding-left: 16px;
+}
+
+.creator-link{
+display: flex;
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-decoration: none;
+padding-left: 5px;
+color: #FFFFFF;
+}
+
+.creator-link:hover{
+    color: #00FFF8 ;
+    transition: 0.5s;
+}
+
+
+
+.image-container{
+    position: relative;
+  width: 100%;
+  cursor: pointer;
+}
+.image-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: #00FFF8;
+    mix-blend-mode: normal;
+    
+    border-radius: 8px;
+}
+
+.image-container:hover .image-overlay {
+    opacity: 0.7;
+  }
+.overlay-svg{
+color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
