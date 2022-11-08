@@ -5,4 +5,5 @@
 
 
 ## NFT Preview Card
-* Here is [Link]()
+* Here is [Link](https://parqosa.github.io/II-HW--NFT-Preview/)
+
